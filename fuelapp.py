@@ -132,6 +132,6 @@ def get_people(older_than):
         if person['age'] > older_than:
             new_people.append(person)
     return new_people
-print(get_people(0))
-print(get_people(5))
-print(get_people(50))
+#print(get_people(0))
+#print(get_people(5))
+#print(get_people(50))
